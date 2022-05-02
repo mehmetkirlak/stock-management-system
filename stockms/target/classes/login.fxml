@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.narval.stockms.controller.LoginController">
+   <children>
+      <VBox fillWidth="false" prefHeight="181.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="135.0" prefWidth="305.0" style="-fx-background-color: #9B9DFA;" text="Stock Management System Entry">
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+               <font>
+                  <Font name="Agency FB" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Pane prefHeight="184.0" prefWidth="344.0" style="-fx-background-color: #D0D3F7;">
+               <children>
+                  <Button fx:id="btn_login" alignment="CENTER" contentDisplay="RIGHT" layoutX="115.0" layoutY="85.0" mnemonicParsing="false" onAction="#login" prefHeight="24.0" prefWidth="71.0" text="Login" textOverrun="CLIP">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Button>
+                  <PasswordField fx:id="fld_password" alignment="CENTER" layoutX="93.0" layoutY="49.0" prefHeight="25.0" prefWidth="187.0" promptText="Password" />
+                  <Label alignment="CENTER" layoutX="21.0" layoutY="49.0" prefHeight="25.0" prefWidth="61.0" text="Password">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <TextField fx:id="fld_username" alignment="CENTER" layoutX="93.0" layoutY="12.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter Username" />
+                  <Label alignment="CENTER" layoutX="21.0" layoutY="12.0" prefHeight="25.0" prefWidth="61.0" text="Username">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

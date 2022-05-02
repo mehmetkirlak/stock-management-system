@@ -1,0 +1,17 @@
+
+_
+java:S1192è"HDefine a constant instead of duplicating this literal "(?,?,?)" 3 times.(Ø‡‡€
+^
+java:S1192"GDefine a constant instead of duplicating this literal "[^\\d]" 8 times.(²ÿüÇ
+y
+java:S1192Õ"bDefine a constant instead of duplicating this literal "Please fill the fields correctly." 4 times.(ıÀ¯§
+p
+java:S1192ğ"YDefine a constant instead of duplicating this literal "Successfully registered." 4 times.(ŠñÊ¯
+œ
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼†¢‹úÿÿÿÿ
+i
+java:S3776Í"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(€è“Æ
+n
+java:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¦ÕÕúÿÿÿÿ
+n
+java:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•‘İŸüÿÿÿÿ
