@@ -1,7 +1,16 @@
-# stock-management-system
+# Stock Management System
+
+a Stock Management System with GUI that made in JavaFX.
+
+You can add new products in your company's stocks or increase the stocks of products. Also this application allows you to keep a record of your orders. The orders and purchases will effect to your stocks. 
+
+Not suitable for commercial purposes.
+
+Login Screen:
 
 ![loginfx](https://user-images.githubusercontent.com/93326644/166340713-13a2e717-bad6-4bb5-a12d-0eb502f709c5.png)
 
+Main Menu with changeable tabs in it:
 
 ![stockms-product](https://user-images.githubusercontent.com/93326644/166340715-0ab65154-3bc2-4b8c-8c6d-82f83133d3ef.png)
 
